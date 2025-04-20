@@ -2,7 +2,7 @@ import minhaFoto from "../assets/fotoPortfolio.jpg";
 
 function Hero() {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-gray-900 to-gray-800 text-white px-4">
+      <section id="hero" className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-gray-900 to-gray-800 text-white px-4 pt-2">
           {/* Imagem do usuário */}
       <img
         src={minhaFoto}
@@ -16,9 +16,7 @@ function Hero() {
              e atualmente estou cursando a graduação na mesma área pela Universidade LaSalle.
              Meu objetivo é atuar na área de Desenvolvimento de Software, contribuindo com soluções criativas e eficientes,
               enquanto evoluo tecnicamente e profissionalmente dentro de equipes colaborativas e inovadoras.</p>
-        <button className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl transition duration-300">
-          Ver Projetos
-        </button>
+        
       </section>
     );
   }
